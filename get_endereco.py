@@ -1,4 +1,5 @@
-#function to show data from a Brazilian address when user input a CEP and getting a response from 'viacep.com.br'
+#function to show data from a Brazilian address when user input a CEP and getting a response from 'viacep.com.br' (back-end)
+
 def get_endereco(request, **kwargs):
     import json
     endereco = json.loads(kwargs.get('str'))
